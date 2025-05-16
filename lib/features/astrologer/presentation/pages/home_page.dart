@@ -89,6 +89,7 @@ class HomePage extends ConsumerWidget {
                 ),
                 const SizedBox(height: 16),
                 Container(
+                  width: MediaQuery.of(context).size.width,
                   decoration: const BoxDecoration(
                     borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(12),
